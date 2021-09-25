@@ -7,10 +7,15 @@ body,
 h1,
 h2,
 h3,
+.menu.active {
+    max-height: 600px;
+}
 .menu
 {
     margin: 0;
     background-color: rgb(158, 158, 177);
+    max-height: 0;
+    overflow: hidden;
 }
 nav{
     display: flex;

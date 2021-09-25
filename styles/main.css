@@ -7,7 +7,15 @@ body,
 h1,
 h2,
 h3,
-header p{
+.menu
+{
     margin: 0;
-    background-color: blue;
+    background-color: rgb(158, 158, 177);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #613, rgb(148, 125, 117));
 }
